@@ -1,0 +1,1 @@
+STDOUT.print 10 ** STDIN.gets.to_i + 7
