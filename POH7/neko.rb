@@ -9,5 +9,8 @@ for i in 0..s.size-1
 		t += 1
 	end	
 end
-result[c, a, t]
-puts result.sort[0]
+result = [c, a, t]
+puts result.min
+result.length.times do |i|
+	puts result.max - result[i]
+end
