@@ -15,3 +15,5 @@ func main() {
 	fmt.Println(b)
 
 }
+
+//struct / interface / goroutine / channel
