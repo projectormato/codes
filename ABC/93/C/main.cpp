@@ -14,5 +14,4 @@ int main(){
   cin >> a >> b >> c;
   int maxn = max(a, b);
   maxn = max(maxn, c);
-  
 }
