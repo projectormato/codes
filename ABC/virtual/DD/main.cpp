@@ -11,22 +11,4 @@ using namespace std;
 typedef pair<int, int> P;
 
 int main(){
-  int N, odd = 0, even = 0;
-  cin >> N;
-  ll a[N];
-  rep(i, N){
-    cin >> a[i];
-  }
-  rep(i, N){
-    if (a[i] % 2 == 0) {
-      even += 1;
-    }else{
-      odd += 1;
-    }
-  }
-  if (odd % 2 == 0) {
-    cout << "YES" << endl;
-  }else{
-    cout << "NO" << endl;
-  }
 }
