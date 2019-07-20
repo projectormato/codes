@@ -10,3 +10,4 @@ flask = "*"
 python_version = "3.5"
 
 [dev-packages]
+Jinja2 = ">=2.10.1"
